@@ -1,0 +1,368 @@
+/*
+    ======== Author Info =======
+    Author: Md. Shums-ul-kabir
+    
+    ============================
+    */
+
+/*
+    =========== Index =========
+    1. Global CSS
+    2. Section one
+    3. section two
+    4. Section four
+    5. Section five
+    6. Section six
+    7. Section Saven
+    8. Footer Section
+    ============================
+    */
+
+
+    /* === 1. Global CSS === */ 
+
+    @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+
+    body{   
+        font-family: 'Playfair Display', serif;
+        font-size: 15px;
+        background: #0A2244;
+    }
+
+
+    h1{
+        font-size: 65px;
+        color: #fff;
+    }
+    h2{
+        font-size: 32px; 
+        color: #fff;   
+    }
+h3{
+        font-size: 22px;
+        color: #fff;
+    }
+h4{
+        font-size: 20px;    
+        line-height: 30px;
+        color: #fff;
+    }
+h5{
+        font-size: 18px;
+        color: #fff;
+    }
+h6{
+        font-size: 16px;
+        color: #fff;
+        line-height: 3
+    }
+p{
+        font-size: 15px;
+        line-height: 30px;
+        color: #fff;
+    }
+ul{
+        margin: 0;
+        padding: 0;
+    }
+li{
+    list-style: none;
+    }
+a,a:hover{
+        text-decoration: none;
+        color: #111;
+    }
+section{
+        padding: 50px 0px;
+    }
+img{
+        max-width: 100%;
+    }
+span{
+    color: #276ed3;
+}
+.fa{
+    width: 100%;
+    color: #e73131;
+    font-size: 55px;
+    padding-bottom: 25px;
+}
+.btn {
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    border-radius: 22px;
+}
+.btn:hover{
+    background: #fff;
+    color: #0A2244;
+}
+
+    .img-center{
+        display: block;
+        margin: 0 auto;
+    }
+    .no-padding{
+        padding: 0;
+    }
+    .navbar-nav{
+    list-style: none;
+}
+.nav-item {
+    border: 1px solid #fff;
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-decoration: none !important;
+}
+.navbar-nav a{
+    color: #fff !important;
+}
+.navbar-nav a:hover{
+     text-decoration: none !important;
+}
+.bg-dark {
+    background-color: #0A2244 !important;
+}
+/* === Section-one === */
+
+.section-one{
+    text-align: center;
+}
+.section-one h5{
+    width: 100%;
+}
+.section-one h1{
+    width: 100%;
+}
+.section-one p {
+    margin-left: 171px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #276ed3;
+}
+.section-one .batton{
+    margin-left: 42%;
+    margin-top: 20px;
+}
+
+/* === Section-two === */
+.section-two{
+    background-image: url(../img/102.png);
+    height: 100vh;
+    background-size: cover;
+}
+/* === Section-three === */
+.section-three {
+    background: url(../img/107.png);
+    background-size: 624px 411px;
+    background-repeat: no-repeat;
+    height: 628px;
+    margin-top: 200px;
+}
+/* === Section-four === */
+.section-four {
+    background: url(../img/1111.png);
+    background-repeat: no-repeat;
+    background-size: 1473px 563px;
+    height: 600px;
+}
+.section-four .fa{
+    width: 100%;
+    color: #e73131;
+    font-size: 55px;
+}
+/* === Section-five === */
+.section-five {
+    background: url(../img/1112.png);
+    background-repeat: no-repeat;
+    height: 792px;
+    background-size: 1516px 718px;
+}
+/* === Section-six === */
+.section-six {
+    width: 100%;
+    height: auto;
+    padding: 5rem 0;
+    overflow: hidden;
+    background: url(../img/111.png) no-repeat;
+    background-color: #7776ac2e;
+    background-position: center;
+    background-size: cover;
+}
+.section-six-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem 0;
+}
+.section-six-content p {
+    width: 60%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+.section-six-content h4{
+    font-size: 14px;
+}
+.section-six-content img{
+    max-width: 100%;
+    width: 70px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+.quoter{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+/* === Section-saven === */
+.section-saven{
+    background-color: #030408;
+}
+
+.content-saven h2{
+    text-align: center;
+}
+.content-saven p {
+    text-align: center;
+    width: 59%;
+    margin-left: 200px;
+    margin-top: 20px;
+    color: #2d579f;
+}
+.section-saven .batton{
+     margin-left: 475px;
+     margin-top: 57px;
+     margin-bottom: 50px;
+}
+.section-saven .container{
+    border-bottom: 1px solid #3859df;
+}
+
+/* ===== Footer Section ==== */
+
+#footer{
+    width: 100%;
+    height: auto;
+    background: #030408;
+}
+.footer-content {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2a5da3;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.footer-content ul {
+    list-style: none;
+    display: flex;
+}
+.footer-content ul li{
+    margin-right: 20px;
+}
+
+.footer-content p{
+    color: #3859df;
+}
+
+
+/* ==== midiya quree === */
+@media(min-width: 320px) and (max-width: 500px){
+
+.section-one .batton {
+    margin-left: 29%;
+    margin-top: 20px;
+}
+.section-saven .batton {
+    margin-left: 114px;
+    margin-top: 57px;
+    margin-bottom: 50px;
+}
+
+.content-saven p {
+    text-align: center;
+    width: 59%;
+    margin-left: 73px;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2d579f;
+
+}
+
+.section-three .batton{
+    text-align: center;
+    margin-top: 9px;
+}
+.section-three h6{
+    line-height: 28px !important;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 77px;
+}
+.footer-content ul {
+    list-style: none;
+    display: flex;
+    font-size: 10px;
+}
+.footer-content ul li {
+    margin-right: 10px;
+}
+.section-five h2 {
+    margin-bottom: 46px;
+    font-size: 32px;
+    color: #fff;
+}
+.footer-content p {
+    color: #3859df;
+    font-size: 10px;
+}
+
+.section-five {
+    margin-top: 800px;
+    background: url(../img/1112.png);
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: 424px 309px;
+}
+.section-four {
+    margin-top: 475px;
+    background: url(../img/1111.png);
+    background-repeat: no-repeat;
+    background-size: 1473px 563px;
+    height: 600px;
+}
+.section-one p {
+    margin-left: 14px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #276ed3;
+    width: 90%;
+}
+.content-saven h2 {
+    text-align: center;
+    margin-bottom: 37px;
+}
+} 
